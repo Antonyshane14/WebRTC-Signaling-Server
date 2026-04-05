@@ -1,10 +1,10 @@
 # VoIP Signaling Server
 
-🚀 **Railway-Ready WebRTC Signaling Server for VoIP Applications**
+**Railway-Ready WebRTC Signaling Server for VoIP Applications**
 
 A production-ready Node.js signaling server built with Socket.IO and Express, designed for seamless Railway deployment.
 
-## 🌟 Features
+##  Features
 
 - **WebRTC Signaling**: Complete SDP offer/answer and ICE candidate exchange
 - **Real-time Communication**: Socket.IO powered real-time messaging
@@ -14,9 +14,7 @@ A production-ready Node.js signaling server built with Socket.IO and Express, de
 - **CORS Enabled**: Cross-origin resource sharing for web clients
 - **Production Ready**: Error handling and connection cleanup
 
-## 🚀 Quick Deploy to Railway
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template)
+##  Quick Deploy to Railway
 
 1. Click the Railway button above
 2. Connect your GitHub account
@@ -66,7 +64,7 @@ GET /
 ```
 Returns server information and available endpoints.
 
-## 🔌 Socket.IO Events
+##  Socket.IO Events
 
 ### Client Registration
 ```javascript
@@ -97,7 +95,7 @@ socket.emit('answer', { roomId: 'room123', answer: sdpAnswer });
 socket.emit('ice-candidate', { roomId: 'room123', candidate: iceCandidate });
 ```
 
-## 🔧 Environment Variables
+##  Environment Variables
 
 | Variable | Default | Description |
 |----------|---------|-------------|
@@ -105,7 +103,7 @@ socket.emit('ice-candidate', { roomId: 'room123', candidate: iceCandidate });
 | `HOST` | `0.0.0.0` | Server host address |
 | `NODE_ENV` | `development` | Environment mode |
 
-## 🌐 Production Deployment
+##  Production Deployment
 
 ### Railway Deployment
 1. Connect your GitHub repository to Railway
@@ -130,7 +128,7 @@ railway init
 railway up
 ```
 
-## 📊 Monitoring
+##  Monitoring
 
 The server provides comprehensive monitoring through several endpoints:
 
@@ -138,21 +136,21 @@ The server provides comprehensive monitoring through several endpoints:
 - **Detailed Stats**: `/stats` - Memory usage, uptime, and performance metrics
 - **Connection Test**: `/test` - Simple connectivity verification
 
-## 🔒 Security Features
+##  Security Features
 
 - **CORS Protection**: Configurable cross-origin resource sharing
 - **Graceful Shutdown**: Proper cleanup on server termination
 - **Connection Limits**: Built-in socket connection management
 - **Error Handling**: Comprehensive error catching and logging
 
-## 🚀 Performance
+##  Performance
 
 - **Lightweight**: Minimal dependencies for fast startup
 - **Scalable**: Designed for horizontal scaling
 - **Memory Efficient**: Automatic cleanup of disconnected clients
 - **Low Latency**: Optimized for real-time communication
 
-## 📱 Client Integration
+## Client Integration
 
 This server is compatible with:
 - Flutter WebRTC applications
@@ -161,7 +159,7 @@ This server is compatible with:
 - Native mobile apps
 - Desktop applications
 
-## 🔄 Auto-scaling
+##  Auto-scaling
 
 Railway automatically handles:
 - **Load Balancing**: Distribute traffic across instances
@@ -169,7 +167,7 @@ Railway automatically handles:
 - **Health Checks**: Automatic restart on failures
 - **Zero-downtime**: Rolling deployments
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -199,7 +197,7 @@ DEBUG=socket.io* npm start
 
 MIT License - feel free to use this in your projects!
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -207,7 +205,7 @@ MIT License - feel free to use this in your projects!
 4. Push to the branch
 5. Create a Pull Request
 
-## 📞 Support
+## Support
 
 For issues and questions:
 - Create an issue on GitHub
@@ -216,4 +214,4 @@ For issues and questions:
 
 ---
 
-**Built with ❤️ for the VoIP community**
+
