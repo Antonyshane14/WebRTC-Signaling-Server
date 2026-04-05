@@ -21,7 +21,7 @@ A production-ready Node.js signaling server built with Socket.IO and Express, de
 3. Select this repository
 4. Railway will automatically detect and deploy!
 
-## 🛠️ Local Development
+##  Local Development
 
 ```bash
 # Clone the repository
@@ -38,7 +38,7 @@ npm run dev
 npm start
 ```
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Health Check
 ```
